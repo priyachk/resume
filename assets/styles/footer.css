@@ -1,0 +1,48 @@
+.footer__container{
+  background: var(--secBgColor);
+  color: var(--secFontColor);  
+}
+
+.footer__content{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 30px 0px;
+  width: 100%;
+  height: auto;
+}
+
+.footer__content__area{
+  text-align: center;
+}
+
+.footer__content__area .sub-heading, .footer__content__area .para{
+  font-size: 14px;
+  margin: 6px auto;
+}
+
+.footer__content__area h3{
+  font-size: 30px;
+}
+
+.footer__content__area .button{
+  margin: 20px auto;
+  padding-bottom: 20px;
+}
+
+.footer__content__area .button a{
+  color: var(--heading);
+  border: 2px solid var(--heading);
+  padding: 6px 10px;
+  border-radius: 20px;
+}
+
+.footer__content__area .button a:hover{
+  border: 2px solid var(--bgColor);
+  color: var(--secFontColor);
+  border-radius: 15px;
+}
+
+.footer__content__area .copyright p {
+  font-size: 12px;
+}

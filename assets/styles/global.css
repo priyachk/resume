@@ -1,0 +1,73 @@
+/* default webpage margin and padding */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* defined variables */
+:root {
+  --bgColor: #FEFEFA;
+  --fontColor: #000000;
+  --heading: #F88379;
+  --fontFamily: "Roboto", sans-serif;
+  --secBgColor: #000000;
+  --secFontColor: #FEFEFA;
+  --shadowColor: #80808080;
+}
+
+body {
+  font-family: var(--fontFamily);
+  background: var(--bgColor);
+  position: relative;
+  height: auto;
+  width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  color: var(--heading);
+}
+
+p{
+  margin-bottom: 20px;
+}
+
+.container {
+  max-width: 1000px;
+  width: 100%;
+  margin: 0px auto;
+  height: auto;
+}
+
+a {
+  color: var(--fontColor);
+  text-decoration: none;
+}
+
+.sec-xd {
+  margin-bottom: 40px;
+}
+
+/* for heading */
+.hd-xd {
+  display: inline-block;
+  margin-bottom: 10px;
+  color: var(--fontColor);
+  border-bottom: 3px solid var(--heading);
+}
+
+.btn-xd {
+  border: 2px solid var(--heading);
+  color: var(--heading);
+  padding: 5px 10px;
+  border-radius: 16px;
+}
+
+.btn-xd:hover{
+  background: var(--heading);
+  color: var(--secFontColor);
+}

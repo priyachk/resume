@@ -1,0 +1,101 @@
+/* hero css */
+.hero__row{
+  display: grid;
+  grid-template-columns: 250px 1fr;
+  align-items: center;
+  justify-content: center;
+  grid-gap: 10px;
+  padding: 10px 0px;
+}
+
+.hero__row__items img{
+  max-width: 250px;
+  width: 100%;
+  height: auto;
+}
+
+.hero .hero__row__content__content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: nowrap;
+  text-align: center;
+}
+
+.hero .hero__row__content__content h1{
+  font-size: 8vw;
+  padding: 8px 0px;
+  text-shadow: 0px 3px 2px var(--shadowColor);
+}
+
+.hero .hero__row__content__content p{
+  font-size: 24px;
+  margin: 10px auto;
+}
+
+.about__content__btn {
+  text-align: center;
+}
+
+.skills .skills__row{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 6px;
+  justify-content: start;
+  justify-items: start;
+}
+
+.skills .skills__items__skills ul{
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.skills .skills__items__skills ul li{
+  margin-right: 16px;
+  margin-bottom: 12px;
+  padding: 6px;
+  border: 2px solid var(--heading);
+  border-radius: 9px;
+  color: var(--heading);
+  font-weight: 500;
+}
+
+.skills .skills__items__skills ul li:hover{
+  background: var(--heading);
+  color: var(--secFontColor);
+}
+
+.skills .skills__items__skills ul li:last-child{
+  margin-right: 0px;
+}
+
+.exp .exp__row{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 14px 30px;
+}
+
+.exp__row .exp__items__desc .exp__items__heading h5{
+  color: var(--fontColor);
+  font-size: 14px;
+  font-family: 400;
+  margin-bottom: 4px;
+}
+
+.exp__row .exp__items__desc .exp__items__heading h2{
+  font-weight: 300;
+  margin-bottom: 4px;
+}
+
+.exp__row .exp__items__desc ul li{
+  margin-bottom: 12px;
+  font-size: 13px;
+  list-style-type: circle;
+}
+
+.exp__row .exp__items__desc .exp__items__heading h4{
+  color: var(--fontColor);
+  font-family: 400;
+  margin-bottom: 20px;
+}
